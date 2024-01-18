@@ -1,0 +1,32 @@
+img{
+	width: 100%;
+}
+.derecha{
+	text-align: right;
+}
+.logodiv{
+	width: 30%;
+	margin: 0 auto;
+}
+.menus ul{
+	list-style-type: none;
+	text-align: center;
+}
+.menus li {
+	display: inline;
+
+}
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.logosmall{
+	width: 10%;
+	margin: 0 auto;
+}
+@media screen and (min-width:768px){
+	.contenedor{
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+}
